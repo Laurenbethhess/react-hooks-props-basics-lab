@@ -10,9 +10,9 @@ console.log(user);
 function App() {
   return (
     <div>
+      <Home username = {user.name} city = {user.city} color = {user.color}/>
       <NavBar />
-      <Home />
-      <About />
+      <About bio = {user.bio}  />
     </div>
   );
 }
